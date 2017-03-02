@@ -1,40 +1,9 @@
-========================================================================
-    CONSOLE APPLICATION : Switcher Project Overview
-========================================================================
+This is a small utility app to put your display into HDR mode and leave it there while you run other applications.
+This can be useful particularly if you want to use custom shaders in an application but not modify the actual
+source code to turn on HDR.
 
-AppWizard has created this Switcher application for you.
+Usage:
+Run switcher.exe which will make the screen black for 5 seconds while it attempts to enable HDR mode.
 
-This file contains a summary of what you will find in each of the files that
-make up your Switcher application.
-
-
-Switcher.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-Switcher.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-Switcher.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named Switcher.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+The black screen will go away but the application will wait for the user to press enter before sending
+the display a message that is no longer sending HDR data. 
