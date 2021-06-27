@@ -1,3 +1,5 @@
+[Deprecated] This method is no longer needed on newer versions of Windows and there are better tools that do the same thing.
+
 This application attempts to enable HDR rendering on compatible devices connected to a Nvidia GPU.
 
 The screen will go black for 5 seconds while the application attempts to enable HDR mode.  HDR mode will stay enabled until you close the application or press enter.
